@@ -1,0 +1,35 @@
+body {
+    background: url("1.jpg");
+}
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    width: 600px;
+    font-family: sans-serif;
+    color: green;
+    background: rgba(255, 207, 0, 0.9);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);;
+}
+h2 {
+    text-align: center;
+}
+.strings {
+    margin: 10px;
+}
+.list {
+    margin-bottom: 20px;
+}
+.btn {
+    margin-bottom: 10px;
+}
+.strings>span,
+.output {
+    color: #38549D;
+    font-weight: bold;
+}
+.output {
+    margin-top: 4px;
+}
+#task, #inputStr {
+    overflow-wrap: break-word;
+}
